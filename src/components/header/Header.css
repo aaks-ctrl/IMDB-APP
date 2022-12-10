@@ -12,27 +12,45 @@
 
 }
 
-a > span{
+.header a > div{
     margin: 0 15px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     cursor: pointer;
     color: white;
     padding: 0.7em 0.5rem;
     transition: all 0.5s ease-in-out;
 }
 
-a > span:hover {
+.header a > div:hover {
     color:black;
     background-color:#f3ce13;
     border-bottom-left-radius: 20px;
 }
 
 .header__icon {
-    width: 120px;
+    width: 8rem;
     cursor: pointer;
 }
 
 .user__avatar {
     font-size: 2rem;
 }
+
+@media (max-width: 600px) {
+    .header {
+        margin: 0 2.5rem;
+        padding: .5rem 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        justify-content:space-between;
+    }
+    .headerRight {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    
+    }
+  }
 

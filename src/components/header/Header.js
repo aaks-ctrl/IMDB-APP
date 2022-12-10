@@ -16,13 +16,13 @@ const Header = () => {
       </div>
       <div className="headerRight">
         <Link to="/movies/popular" style={{ textDecoration: "none" }}>
-          <span>Popular</span>
+          <div>Popular</div>
         </Link>
         <Link to="/movies/top_rated" style={{ textDecoration: "none" }}>
-          <span>Top Rated</span>
+          <div>Rated</div>
         </Link>
         <Link to="/movies/upcoming" style={{ textDecoration: "none" }}>
-          <span>Upcoming</span>
+          <div>Upcoming</div>
         </Link>
       </div>
     </div>
