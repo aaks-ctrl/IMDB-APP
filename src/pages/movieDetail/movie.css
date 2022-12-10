@@ -50,14 +50,14 @@
         margin-bottom: 30px;
     }
     .movie__links {
-        bottom: -200px !important
+        bottom: -20vh !important
     }
     .movie__productionComapany {
     width: 150px !important;
     margin: 2rem;
     }
     .movie__heading{
-        font-size: 2rem !important;
+        font-size: 2.5rem !important;
     }
     .movie__detail {
         align-items: center;
@@ -67,7 +67,7 @@
         bottom:0 !important;
     }
     .movie__name {
-        font-size: 2.5rem !important;
+        font-size: 6vw !important;
     }
     .movie__tagline {
         font-size: .9rem !important;   
@@ -79,7 +79,7 @@
         flex-direction: column !important;
     }
     .movie__heading.production{
-        display: none;
+        display: none !important;
     }
     .movie__production{
        display:none !important;
