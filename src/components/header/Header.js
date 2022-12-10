@@ -10,6 +10,7 @@ const Header = () => {
           <img
             className="header__icon"
             src={logo}
+            alt=""
           />
         </Link>
       </div>
