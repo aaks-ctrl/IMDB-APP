@@ -29,13 +29,13 @@
 
 .posterImage__title {
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 5vw;
     margin-bottom: 0.4rem;
     text-align: left;
 }
 
 .posterImage__runtime {
-    font-size: 2rem;
+    font-size: 3vw;
     margin-bottom: 1rem;
 }
 
@@ -49,5 +49,22 @@
     margin-bottom: 0.25rem;
     display: flex;
     text-align: left;
-    width: 50%;
+    width: 50vw;
+}
+
+@media (max-width: 1000px) {
+    .posterImage__description{
+        display: none;
+    }
+    .posterImage__overlay{
+        height:auto;
+        padding-left:10px;
+
+    }
+    .posterImage{
+        height:auto ;
+    }
+    .carousel .control-dots{
+        display: none !important;
+    }
 }
